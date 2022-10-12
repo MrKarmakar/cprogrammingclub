@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/home_menu"
+            android:icon="@drawable/dj"
+            android:title="Home" />
+        <item
+            android:id="@+id/ASCII"
+            android:icon="@drawable/dj"
+            android:title="ASCII Table" />
+
+        <item
+            android:id="@+id/dashboard_menu"
+            android:icon="@drawable/dj"
+
+            android:title="Set up your computer to write &#xA; C Programming" />
+
+        <item
+            android:id="@+id/course_menu"
+            android:icon="@drawable/dj"
+            android:title="Course" />
+
+    </group>
+    <group android:checkableBehavior="single">
+        <item android:title="Authentication">
+            <menu>
+
+                <item
+                    android:id="@+id/login_menu"
+                    android:icon="@drawable/dj"
+                    android:title="Login" />
+
+                <item
+                    android:id="@+id/logout_menu"
+                    android:icon="@drawable/dj"
+                    android:title="Logout" />
+
+            </menu>
+        </item>
+    </group>
+    <item android:title="Sharing">
+        <menu>
+
+            <item
+                android:id="@+id/share_menu"
+                android:icon="@drawable/dj"
+                android:title="Share" />
+            <item
+                android:id="@+id/report_bug"
+                android:icon="@drawable/dj"
+                android:title="Report Bug" />
+            <item
+                android:id="@+id/improvment"
+                android:icon="@drawable/dj"
+                android:title="What can we improve?" />
+            <item
+                android:id="@+id/contributor"
+                android:icon="@drawable/dj"
+                android:title="Do you want to contribute?" />
+
+            <item
+                android:id="@+id/refer_menu"
+                android:icon="@drawable/dj"
+                android:title="Refer" />
+            <item
+                android:id="@+id/reghffer_menu"
+                android:icon="@drawable/dj"
+                android:title="Refer" />
+            <item
+                android:id="@+id/reffer_menu"
+                android:icon="@drawable/dj"
+                android:title="Refer" />
+
+        </menu>
+    </item>
+</menu>
