@@ -4,8 +4,6 @@
     <item
         android:id="@+id/homeee"
         android:icon="@drawable/home"
-        android:color="@color/black"
-        android:state_checked="false"
         android:title="Home" />
 
     <item
