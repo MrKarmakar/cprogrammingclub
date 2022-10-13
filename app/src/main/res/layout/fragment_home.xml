@@ -20,7 +20,67 @@
            android:layout_marginTop="10dp">
 
 
+            <ScrollView
+                android:layout_width="wrap_content"
+                android:scrollbars="horizontal"
+                android:scrollbarStyle="insideInset"
+                android:scrollbarSize="10dp"
+                android:background="@color/purple_700"
+                android:scrollIndicators="start"
+                android:layout_height="200dp">
 
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:weightSum="3"
+                    android:orientation="horizontal" >
+
+
+                    <TextView
+                        android:id="@+id/textView3"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:textSize="36dp"
+                        android:layout_weight="1"
+                        android:text="Hmm. We’re having trouble finding that site.We can’t connect to the server at www.aljazeera.com.If you entered the right address, you can:Try again later  Check your network connection Check that Firefox has permission to access the web (you might be connected but behind a firewallHmm. We’re having trouble finding that site.
+
+We can’t connect to the server at www.aljazeera.com.
+
+If you entered the right address, you can:
+
+    Try again later
+    Check your network connection
+    Check that Firefox has permission to access the web (you might be connected but behind a firewallHmm. We’re having trouble finding that site.
+
+We can’t connect to the server at www.aljazeera.com.
+
+If you entered the right address, you can:
+
+    Try again later
+    Check your network connectionCheck that Firefox has permission to access the web (you might be connected but behind a firewallHmm. We’re having trouble finding that site.We can’t connect to the server at www.aljazeera.com.f you entered the right address, you can: Try again latChetwork connectioCheck that Firefox has permission to access the web (you might be connected but behind a firewallHmm. We’re having trouble finding that site.e can’t connect to the server at www.aljazeera.comIf you entered the right address, you can Try again laterCheck your network connection Check that Firefox has permission to access the web (you might be connected but behind a firewall" />
+
+                    <ImageView
+                        android:id="@+id/imageView2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:src="@drawable/logo" />
+
+                    <ImageView
+                        android:id="@+id/imageView3"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:src="@drawable/ic_array_icon" />
+
+                    <ImageView
+                        android:id="@+id/imageView4"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:src="@drawable/linear_bg" />
+                </LinearLayout>
+            </ScrollView>
 
             <androidx.cardview.widget.CardView
                 android:id="@+id/cvBrifC"
