@@ -5,7 +5,7 @@
     android:layout_height="230dp"
     android:orientation="vertical"
     android:gravity="center"
-    android:background="@color/purple_700"
+    android:background="#E91E63"
     android:padding="20dp">
 
 
