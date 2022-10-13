@@ -40,9 +40,7 @@
                         android:layout_height="match_parent"
                         android:textSize="36dp"
                         android:layout_weight="1"
-                        android:text="Hmm. We’re having trouble finding
-We can’t connect to the server at www.aljazeera.co
-If you entered the right address, you can:"/>
+                        android:text="Hmm. We’re having trou"/>
 
                     <ImageView
                         android:id="@+id/imageView2"
