@@ -14,4 +14,6 @@
     <color name="sidebar_color">#C5C5C5</color>
     <color name="theme_color">#05091E</color>
     <color name="header_color">#060B27</color>
+
+    <color name="bottomnavbar_item_color">#008702</color>
 </resources>
