@@ -30,42 +30,20 @@
             android:id="@+id/toolbar"
             android:layout_width="match_parent"
             android:layout_height="70dp"
-            android:background="@color/white"
+            android:background="@color/black"
             android:elevation="10dp"
+            android:gravity="center"
             android:outlineSpotShadowColor="@color/black"
             android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent"
             app:navigationIcon="@color/black"
-            app:title="Toolbar"
-            app:titleTextColor="@color/white">
-            <LinearLayout
-                android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                android:orientation="horizontal">
-            <LinearLayout
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:orientation="horizontal">
+            app:title="C Programming Club"
+            app:subtitle="Everything here for C learners"
+            app:subtitleTextColor="@color/bottomnavbar_item_color"
+            app:titleTextColor="@color/white"/>
 
-                <ImageView
-                    android:layout_width="30dp"
-                    android:layout_height="30dp"
-                    android:layout_gravity="center_vertical"
-                    android:src="@drawable/logo" />
-
-                <TextView
-                    android:layout_width="wrap_content"
-                    android:layout_height="50dp"
-                    android:gravity="center"
-                    android:text=" C Programming Club"
-                    android:textColor="@color/black"
-                    android:textSize="18sp"
-                    android:textStyle="bold" />
-            </LinearLayout>
-            </LinearLayout>
-        </androidx.appcompat.widget.Toolbar>
 
         <FrameLayout
             android:id="@+id/frameLayout"
@@ -80,14 +58,18 @@
         </FrameLayout>
 
         <com.google.android.material.bottomnavigation.BottomNavigationView
+            style="@style/Widget.MaterialComponents.BottomNavigationView.Colored"
             android:id="@+id/bn"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:background="@color/white"
-            app:itemTextColor="#FFC107"
+            app:itemRippleColor="#B3FFB6"
+            app:itemIconTint="@drawable/item_selected"
+            android:background="@color/black"
+            app:itemTextColor="@drawable/item_selected"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
+
             app:menu="@menu/bottom_nav_menu"/>
 
     </androidx.constraintlayout.widget.ConstraintLayout>
